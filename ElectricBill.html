@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let NumberE = +prompt('Nhap so dien:');
+    let totalMoney = 0;
+    if(NumberE <=50){
+        totalMoney = NumberE * 1678;
+    }else if(NumberE<=100){
+        totalMoney = NumberE *1734;
+    }else if(NumberE<=200){
+        totalMoney = NumberE * 2014;
+    }else if(NumberE<=300){
+        totalMoney = NumberE *2536;
+    }else if(NumberE<=400){
+        totalMoney = NumberE * 2834;
+    }else {totalMoney = NumberE * 2927;}
+    alert(`Tien dien phai tra la ${totalMoney}`);
+</script>
+</body>
+</html>
